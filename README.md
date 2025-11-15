@@ -1,8 +1,23 @@
-# Backend
-In this i am going to code backend from scratch (means from basic to advance).
+# 🐱 Backend Development (From Scratch)
 
-#CatMe
-Returns some ASCII cats. You know, for spicing up your command line. With cats.
+This repository contains my backend development journey — starting **from basic to advanced concepts**, building everything **from scratch**.
+
+---
+
+# 😺 CatMe
+
+**CatMe** is a fun Node.js package that returns random ASCII cats in your terminal.
+
+### ✨ Features
+- `catMe()` → Returns a **random ASCII cat**
+- `catMe('nyan')` → Returns a **Nyan Cat** ASCII art
+
+---
+
+## 🐈 Example Output
+
+###  Random Cat (`catMe()`)
+```
  1. catMe() // => returns a random cat
   /\ ___ /\
  (  o   o  )
@@ -13,7 +28,7 @@ Returns some ASCII cats. You know, for spicing up your command line. With cats.
  \         /    //
   ///  ///   --
 
-  2. catMe('nyan') // => returns a nyan cat
+ 2. catMe('nyan') // => returns a nyan cat
  ☆    ☆  ☆
 ┈┈┈┈ ╭━━━━━━╮  ☆
 ┈☆ ┈┈┃╳╳╳▕╲▂▂╱▏
@@ -21,11 +36,17 @@ Returns some ASCII cats. You know, for spicing up your command line. With cats.
 ┈┈ ╰━┫╳╳╳▕▏╰┻╯▏
 ☆ ┈┈┈┃╳╳╳╳╲▂▂╱
    ☆ ╰┳┳━━┳┳╯   ☆
+```
+---
 
-# How to use CatMe
-1.Install catMe using this command - npm i cat-me.
-2.Create a file example - use.js
-3.Now in use.js
-  var catMe = require('cat-me')
-  console.log(catMe());
-4.To run use command - node use.js
+#  How to Use CatMe
+#### 1. Install catMe using this command
+`npm i cat-me`
+#### 2. Create a file example - use.js
+#### 3. Now in use.js
+  #### var catMe = require('cat-me')
+  #### console.log(catMe());
+#### 4. To run use command
+`node use.js`
+
+---
